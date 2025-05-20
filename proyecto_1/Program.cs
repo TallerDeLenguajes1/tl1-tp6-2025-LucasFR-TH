@@ -40,4 +40,40 @@ else
 };*/
 
 // EJERCICO 2
+Console.WriteLine("CALCULADORA");
+
+int oper = 1;
+while (oper != 0)
+{
+    Console.WriteLine("Que operacion desea realizar?");
+    Console.WriteLine("1. Sumar");
+    Console.WriteLine("2. Restar");
+    Console.WriteLine("3. Multiplicar");
+    Console.WriteLine("4. Dividir");
+    Console.WriteLine("0. Salir");
+
+    Console.WriteLine("Ingrese su eleccion:");
+    oper = Console.Read();
+
+    if (oper != 0)
+    {
+        Console.WriteLine("Ingrese los numeros a analizar:");
+        string a = Console.ReadLine();
+        string b = Console.ReadLine();
+
+        decimal an;
+        decimal bn;
+
+        if (decimal.TryParse(a, out an) && decimal.TryParse(b, out bn))
+        {
+            switch (oper)
+            {
+                case 1:
+                    decimal resultado = an + bn;
+            };
+        };
+    };
+
+}
+
 
