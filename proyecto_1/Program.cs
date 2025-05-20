@@ -12,3 +12,8 @@ b = a;
 Console.WriteLine("valor de a:" + a);
 
 Console.WriteLine("valor de b:" + b);
+
+Console.WriteLine("Ingrese un numero entero positivo:");
+
+string numero = Console.ReadLine();
+
