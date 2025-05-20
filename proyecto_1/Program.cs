@@ -63,16 +63,31 @@ while (oper != 0)
 
         decimal an;
         decimal bn;
+        decimal resultado;
 
         if (decimal.TryParse(a, out an) && decimal.TryParse(b, out bn))
         {
             switch (oper)
             {
                 case 1:
-                    decimal resultado = an + bn;
-            };
-        };
-    };
+                    resultado = an + bn;
+                    break;
+                case 2:
+                    resultado = an - bn;
+                    break;
+                case 3:
+                    resultado = an + bn;
+                    break;
+                case 4:
+                    resultado = an + bn;
+                    break;
+                default:
+                    break;
+            }
+            
+        }
+        
+    }
 
 }
 
