@@ -15,5 +15,25 @@ Console.WriteLine("valor de b:" + b);
 
 Console.WriteLine("Ingrese un numero entero positivo:");
 
-string numero = Console.ReadLine();
+string entrada = Console.ReadLine();
 
+int numero;
+
+double inverso;
+
+if (int.TryParse(entrada, out numero))
+{
+    if (numero > 0)
+    {
+        inverso = 1 / numero;
+        Console.WriteLine("El inverso del numero ingresado es:" + inverso);
+    }
+    else
+    {
+        Console.WriteLine("El numero no es mayor a 0");
+    }
+}
+else
+{
+    Console.WriteLine("EL dato ingresado no es un numero entero");
+};
