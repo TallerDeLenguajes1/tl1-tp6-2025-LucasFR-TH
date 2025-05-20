@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+/*Console.WriteLine("Hello, World!");
 
 int a;
 
@@ -11,7 +11,7 @@ b = a;
 
 Console.WriteLine("valor de a:" + a);
 
-Console.WriteLine("valor de b:" + b);
+Console.WriteLine("valor de b:" + b);*/
 
 Console.WriteLine("Ingrese un numero entero positivo:");
 
@@ -25,7 +25,7 @@ if (int.TryParse(entrada, out numero))
 {
     if (numero > 0)
     {
-        inverso = 1 / numero;
+        inverso = (double)1 / numero;
         Console.WriteLine("El inverso del numero ingresado es:" + inverso);
     }
     else
@@ -35,5 +35,5 @@ if (int.TryParse(entrada, out numero))
 }
 else
 {
-    Console.WriteLine("EL dato ingresado no es un numero entero");
+    Console.WriteLine("El dato ingresado no es un numero entero");
 };
