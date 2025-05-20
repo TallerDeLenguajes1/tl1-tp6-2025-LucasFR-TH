@@ -13,7 +13,8 @@ Console.WriteLine("valor de a:" + a);
 
 Console.WriteLine("valor de b:" + b);*/
 
-Console.WriteLine("Ingrese un numero entero positivo:");
+// EJERCICIO 1
+/*Console.WriteLine("Ingrese un numero entero positivo:");
 
 string entrada = Console.ReadLine();
 
@@ -36,4 +37,7 @@ if (int.TryParse(entrada, out numero))
 else
 {
     Console.WriteLine("El dato ingresado no es un numero entero");
-};
+};*/
+
+// EJERCICO 2
+
